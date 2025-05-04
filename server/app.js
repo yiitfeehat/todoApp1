@@ -31,7 +31,7 @@ app.use(express.json())
 //   }
 const cors = require('cors');
 app.use(cors({
-    origin: ['htttps://example.com', 'http://localhost:3000', "https://todoapp1-wvz1.onrender.com"], // Allow these origins
+    origin: ['htttps://example.com', 'http://localhost:3001', "https://todoapp1-wvz1.onrender.com", "https://todo-app1-bay.vercel.app"], // Allow these origins
 }));
 /* ------------------------------------------------------- */
 // ROUTERS:
