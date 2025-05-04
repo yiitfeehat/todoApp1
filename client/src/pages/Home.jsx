@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import AddTutorial from "../components/AddTutorial";
 import TutorialList from "../components/TutorialList";
 import axios from "axios";
-
+ 
 //! component LifeCycle
 //* 1-render
 //* 2-componentDidMount => useEffect(()=>{},[])
